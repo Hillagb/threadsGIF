@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer=MediaPlayer.create(this,R.raw.believer);
         //mediaPlayer.start();
         try {
-            Thread.sleep(40);
+            Thread.sleep(100);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
