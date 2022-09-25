@@ -29,7 +29,7 @@ public class MainActivity extends AppCompatActivity {
         mediaPlayer=MediaPlayer.create(this,R.raw.believer);
         //mediaPlayer.start();
         try {
-            Thread.sleep(100);
+            Thread.sleep(40);
         } catch (InterruptedException e) {
             e.printStackTrace();
         }
@@ -63,8 +63,6 @@ public class MainActivity extends AppCompatActivity {
         public void run() {
 
             while(countClicks%2==1) {
-
-
                 try {
                     Thread.sleep(40);
                 } catch (InterruptedException e) {
