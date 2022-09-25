@@ -61,7 +61,7 @@ public class MainActivity extends AppCompatActivity {
 
         @Override
         public void run() {
-
+            //if you see this you're queen
             while(countClicks%2==1) {
                 try {
                     Thread.sleep(100);
